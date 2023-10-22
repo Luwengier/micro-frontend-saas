@@ -1,11 +1,13 @@
 import React from 'react'
-import mount from 'marketing/MarketingApp'
-
-console.log(mount)
+import MarketingApp from '../pages/MarketingApp'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <h1>Hi there!</h1>
+      <hr />
+      <MarketingApp />
+    </div>
   )
 }
 
