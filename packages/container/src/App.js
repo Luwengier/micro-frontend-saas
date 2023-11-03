@@ -1,5 +1,5 @@
 import React from 'react'
-import MarketingApp from '../pages/MarketingApp'
+import MarketingApp from '../components/MarketingApp'
 
 const App = () => {
   return (
