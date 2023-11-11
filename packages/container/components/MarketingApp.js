@@ -18,7 +18,7 @@ const MarketingApp = () => {
     });
 
     history.listen(onParentNavigate);
-  }, []);
+  }, [history]);
 
   return <div ref={ref} />;
 };
