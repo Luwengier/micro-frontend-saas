@@ -16,6 +16,9 @@ const AuthApp = () => {
           history.push(nextPathname + nextSearch);
         }
       },
+      onSignIn: () => {
+        console.log('User signed in');
+      },
     });
 
     history.listen(onParentNavigate);
