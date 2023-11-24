@@ -81,6 +81,7 @@ export default function Album() {
             >
               Home Page
             </Typography>
+
             <Typography
               variant="h5"
               align="center"
