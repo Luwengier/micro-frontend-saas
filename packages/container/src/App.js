@@ -22,7 +22,10 @@ const App = () => {
     <StylesProvider generateClassName={generateClassName}>
       <BrowserRouter>
         <div>
-          <Header isSignedIn={isSignedIn} />
+          <Header
+            isSignedIn={isSignedIn}
+            onSignOut={() => setIsSignedIn(false)}
+          />
           <Suspense fallback={<Progress />}>
             <Switch>
               <Route path="/auth">
