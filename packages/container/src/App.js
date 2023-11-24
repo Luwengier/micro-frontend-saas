@@ -26,6 +26,7 @@ const App = () => {
             isSignedIn={isSignedIn}
             onSignOut={() => setIsSignedIn(false)}
           />
+
           <Suspense fallback={<Progress />}>
             <Switch>
               <Route path="/auth">
