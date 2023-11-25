@@ -6,6 +6,8 @@ const MarketingApp = () => {
   const ref = useRef(null);
   const history = useHistory();
 
+  console.log('MarketingApp');
+
   useEffect(() => {
     const { onParentNavigate } = mount(ref.current, {
       initialPath: history.location.pathname,
